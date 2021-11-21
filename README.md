@@ -63,6 +63,9 @@ I've only tested adding these apps and games onto a Zune HD. I don't know if the
 # References
 Microsoft still hosts basic manuals for Zune and Zune HD devices. Please see [Zune Player and Zune HD Player Product Manuals](https://www.microsoft.com/en-us/download/details.aspx?id=30468) to download those manuals.
 
-# Special thanks and references
-[^1]: [Zune Update](https://www.zuneupdate.com/) for providing an IP address that provides the server of reference that we need when connecting a Zune device with the Zune software.
-[^2]: u/BenjaminGordonT on Reddit for providing a Dropbox link to the ZIP file of the Zune HD apps and games: [All the Original Zune HD Apps and Games!](https://www.reddit.com/r/Zune/comments/52yo3h/all_the_original_zune_hd_apps_and_games/)
+Donations in Bitcoin Cash (BCH) are greatly appreciated!
+
+<img src="https://github.com/josh-wong/bitcoin-cash-node-on-raspberry-pi/blob/main/images/bitcoin_cash_qr_code_github_BCHN_tutorial.png?raw=true" style="zoom: 10%;" width="25%" height="25%" />
+
+[^1]: Special thanks to [Zune Update](https://www.zuneupdate.com/) for providing an IP address that provides the server of reference that we need when connecting a Zune device with the Zune software.
+[^2]: Special thanks to u/BenjaminGordonT on Reddit for providing a Dropbox link to the ZIP file of the Zune HD apps and games: [All the Original Zune HD Apps and Games!](https://www.reddit.com/r/Zune/comments/52yo3h/all_the_original_zune_hd_apps_and_games/)
