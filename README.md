@@ -1,7 +1,5 @@
-# How to set up the Zune software and sync a Zune
-This tutorial describes how to connect your Zune device to the Zune software and load apps and games onto it.
-
-I created this tutorial because there are a few different resources online that provide these files but no exact instructions on how to:
+# How to connect a Zune device to the Zune software
+This tutorial describes how to connect a Zune device to the Zune software. I created this tutorial because there are a few different resources online that provide these files but no exact instructions on how to:
 - Install the Zune software
 - Ensure your Zune device syncs with the software.
 - Optional: Install the apps and games onto your Zune HD. 
