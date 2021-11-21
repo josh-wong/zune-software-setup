@@ -33,9 +33,7 @@ To force the software to recognize the device, we need to spoof the software int
 
 66.115.173.227	resources.zune.net
 
->**Note:** This IP address points to [Zune Update](https://www.zuneupdate.com/), which acts as the Zune software's server of reference since Microsoft no longer hosts the Zune server.\*
-
-4. Save the file. 
+4. Save the file.
 
 > **Note:** When saving the file, you may be prompted to launch Notepad++ in administrator mode since the "hosts" file is protected. If so, do the following:
 >	1. Click **Yes** to open the file in administrator mode.
@@ -45,7 +43,7 @@ To force the software to recognize the device, we need to spoof the software int
 5. Plug in your Zune device to your computer to automatically install the device driver.
 6. Open the Zune software. Your Zune device will then start syncing with the Zune software. 
 
-> **Note:** If you previously reset your Zune to its factory default settings, you will see a different screen that shows your Zune has a "Required Update", even though an update is not actually available. If this screen appears, click **Accept**. Once the "update" is complete, you can begin syncing your media to your Zune HD.
+> **Note:** If you previously reset your Zune to its factory default settings, you will see a different screen that shows your Zune has a "Required Update". If this screen appears, click **Accept**. Once this process is finished, you can begin syncing your media to your Zune HD.
 
 To select which folders to sync with your Zune device, go to **Settings** in the Zune software. In **Collection**, you will see **Monitored folders** where you can choose which folders to sync.
 
@@ -61,6 +59,9 @@ I've only tested adding these apps and games onto a Zune HD. I don't know if the
 8. Connect your Zune device and open the Zune software. All the apps and games will automatically sync to your Zune.
 
 > **Note:** Many of the apps, especially ones that require connecting to an external service like Facebook and Twitter, no longer work because those services' APIs have been changed. Most of the games should be playable though.
+
+# References
+Microsoft still hosts basic manuals for Zune and Zune HD devices. Please see [Zune Player and Zune HD Player Product Manuals](https://www.microsoft.com/en-us/download/details.aspx?id=30468) to download those manuals.
 
 # Special thanks and references
 [^1]: [Zune Update](https://www.zuneupdate.com/) for providing an IP address that provides the server of reference that we need when connecting a Zune device with the Zune software.
