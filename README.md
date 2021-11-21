@@ -1,4 +1,4 @@
-# Overview
+# How to set up the Zune software and sync a Zune
 This tutorial describes how to connect your Zune device to the Zune software and load apps and games onto it.
 
 I created this tutorial because there are a few different resources online that provide these files but no exact instructions on how to:
@@ -10,11 +10,11 @@ I confirmed that the following instructions work on a Zune HD, and I assume it w
 
 If you encounter any problems with these instructions or if the links no longer work, please feel free to open an issue with details or raise a pull request with your changes.
 
-# Prerequisites
+## Prerequisites
 - [Notepad++](https://notepad-plus-plus.org/)
 	- We will need to make admin changes to the "hosts" file in Windows. To do this, we will use Notepad++ since the default text editor in Windows may not allow you to make administrator-level changes.
 
-# How to install the Zune software
+## How to install the Zune software
 1. Go to [Zune Update - RESOURCES](https://www.zuneupdate.com/resources/).[^1]
 2. Click **ZUNE-SOFTWARE.ZIP**, and specify a folder to save the file to.
 3. Go to the folder where you downloaded the software package, and double-click **ZunePackage.exe**.
@@ -23,7 +23,7 @@ If you encounter any problems with these instructions or if the links no longer 
 5. Click **Install**. Installation will take about 1 minute.
 6. After installation is complete, click **Close**. We don't need to open the Zune software at this point.
 
-# How to connect the Zune with the Zune software
+## How to connect the Zune with the Zune software
 If you connect your Zune to your computer, your computer will not recognize the Zune. This is because Microsoft has decommissioned the server that facilitates communication between the Zune and the Zune software.
 
 To force the software to recognize the device, we need to spoof the software into thinking the server is still available.
@@ -47,7 +47,7 @@ To force the software to recognize the device, we need to spoof the software int
 
 To select which folders to sync with your Zune device, go to **Settings** in the Zune software. In **Collection**, you will see **Monitored folders** where you can choose which folders to sync.
 
-# How to add apps and games to your Zune
+## How to add apps and games to your Zune
 I've only tested adding these apps and games onto a Zune HD. I don't know if these instructions will work to install the apps and games on non-Zune HD devices.
 1. Go to **[Zune HD Apps.zip](https://www.dropbox.com/s/rqsifa8ukbkvybb/Zune%20HD%20Apps.zip?dl=0)** on Dropbox.[^2]
 2. Click **Download**, and specify a folder to save the file to.
@@ -60,7 +60,7 @@ I've only tested adding these apps and games onto a Zune HD. I don't know if the
 
 > **Note:** Many of the apps, especially ones that require connecting to an external service like Facebook and Twitter, no longer work because those services' APIs have been changed. Most of the games should be playable though.
 
-# References
+## References
 Microsoft still hosts basic manuals for Zune and Zune HD devices. Please see [Zune Player and Zune HD Player Product Manuals](https://www.microsoft.com/en-us/download/details.aspx?id=30468) to download those manuals.
 
 Donations in Bitcoin Cash (BCH) are greatly appreciated!
