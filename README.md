@@ -21,16 +21,13 @@ If you encounter any problems with these instructions or if the links no longer 
 
    > **Note:** User Account Control in Windows may prompt you with the message "**Do you want to allow this app to make changes to your device?**" If so, click **Yes**.
 
-6. Click **Accept** if you accept the the terms of the Microsoft license terms.
-<img src="https://github.com/josh-wong/zune-software-setup/blob/main/images/microsoft_license_accept.png?raw=true" style="zoom: 50%;" />
-
-7. In the window "Zune is ready to install", uncheck **Send info about setup to help improve experience**. Then, click **Install**.
-<img src="https://github.com/josh-wong/zune-software-setup/blob/main/images/zune_software_install.png?raw=true" style="zoom: 50%;" />
+5. Click **Accept** if you accept the the terms of the Microsoft license terms.
+6. In the window "Zune is ready to install", uncheck **Send info about setup to help improve experience**. You can also choose to install the software in a different location.
+7. Click **Install**.
 
    > **Note:** During installation, Windows may prompt to install .NET Framework 3.5. If so, click **Download and install this feature**. After installation .NET Framework 3.5 is complete, click **Close**. The Zune software will continue installing.
 
-8. After the Zune software installation is complete, click **Close**.
-<img src="https://github.com/josh-wong/zune-software-setup/blob/main/images/zune_software_installation_complete.png?raw=true" style="zoom: 50%;" />
+9. After the Zune software installation is complete, click **Close**.
 
 ## How to connect the Zune with the Zune software
 After installing the Zune software, we need to add a registry setting in Windows and update the "hosts" file in Windows. This will ensure that your Zune can communicate with the Zune software without encountering errors or freezing.
@@ -44,15 +41,9 @@ Since the Zune software was created and optimized for Windows 7, there seems to 
 
    > **Attention!:** If you're worried about the contents of the file and are comfortable checking what will be add to the Windows registry in the next step, you can open the file in Notepad++ to check its contents.
 
-5. In the extracted folder, double-click **Zune Configure App Settings.reg**. 
-
-   > **Note:** If Windows prompts you about applying this registry setting, click **Run** to allow the file to be added to your registry.
-
+5. In the extracted folder, double-click **Zune Configure App Settings.reg**. If prompted, click **Run** to allow the file to be added to your registry.
 6. When the warning appears, click **Yes**.
-<img src="https://github.com/josh-wong/zune-software-setup/blob/main/images/registry_editor_warning.png?raw=true" style="zoom: 50%;" />
-
 7. When the confirmation window appears, click **OK**.
-<img src="https://github.com/josh-wong/zune-software-setup/blob/main/images/registry_editor_confirmation.png?raw=true" style="zoom: 50%;" />
 
 ### Update the "hosts" file in Windows
 Since Microsoft decommissioned the server that facilitates communication between the Zune and the Zune software, we need to force the software to recognize the device. We do this by tricking the software into thinking the server is still available.
@@ -78,13 +69,9 @@ Since Microsoft decommissioned the server that facilitates communication between
    > - If you previously reset your Zune to its factory default settings, you will see a different screen that shows your Zune has a "Required Update". If this screen appears, click **Accept**. Once this process is finished, you can begin syncing your media to your Zune HD.
    > - If the music you have synced on your Zune device is stored on a cloud service (for example, OneDrive or Google Drive), you may see a window with the message "You haven't made a selection. Is this screen displayed correctly?" You can either wait until your music finishes downloading or you can cancel the files from being downloaded. After that, the Zune software will start from the initial setup screen.
 
-8. If you want to apply the default settings to the Zune software, click **Start**. Or, if you want to change the default settings, click **Settings**, then follow the screens in the setup wizard.
-<img src="https://github.com/josh-wong/zune-software-setup/blob/main/images/zune_software_setup_screen.png?raw=true" style="zoom: 50%;" />
+8. If you want to apply the default settings to the Zune software, click **Start**. Or, if you want to change the default settings, click **Settings**, then, follow the screens in the setup wizard.
 
-You've now finished installing the Zune software. If you have any music in the Zune software default folders or the folders that you chose in the setup wizard, those artists, albums, and songs will appear on the main screen.
-<img src="https://github.com/josh-wong/zune-software-setup/blob/main/images/zune_software.png?raw=true" style="zoom: 50%;" />
-
-If you want to choose different folders to sync with your Zune device, go to **Settings** in the Zune software. In **Collection**, you will see **Windows Libraries** where you can choose which folders to sync.
+You can choose the folders you want to sync with your Zune device later by going to **Settings** in the Zune software. In **Collection**, you will see **Windows Libraries** where you can choose which folders to sync.
 
 ## How to add apps and games to your Zune
 I've only tested adding these apps and games onto a Zune HD. I don't know if these instructions will work to install the apps and games on non-Zune HD devices.
