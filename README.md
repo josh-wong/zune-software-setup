@@ -22,7 +22,7 @@ If you encounter any problems with these instructions or if the links no longer 
    > **Note:** User Account Control in Windows may prompt you with the message "**Do you want to allow this app to make changes to your device?**" If so, click **Yes**.
 
 5. Click **Accept** if you accept the the terms of the Microsoft license terms.
-6. In the window "Zune is ready to install, uncheck **Send info about setup to help improve experience**. You can also choose to install the software in a different location.
+6. In the window "Zune is ready to install", uncheck **Send info about setup to help improve experience**. You can also choose to install the software in a different location.
 7. Click **Install**.
 
    > **Note:** During installation, Windows may prompt to install .NET Framework 3.5. If so, click **Download and install this feature**. After installation .NET Framework 3.5 is complete, click **Close**. The Zune software will continue installing.
@@ -69,7 +69,7 @@ Since Microsoft decommissioned the server that facilitates communication between
    > - If you previously reset your Zune to its factory default settings, you will see a different screen that shows your Zune has a "Required Update". If this screen appears, click **Accept**. Once this process is finished, you can begin syncing your media to your Zune HD.
    > - If the music you have synced on your Zune device is stored on a cloud service (for example, OneDrive or Google Drive), you may see a window with the message "You haven't made a selection. Is this screen displayed correctly?" You can either wait until your music finishes downloading or you can cancel the files from being downloaded. After that, the Zune software will start from the initial setup screen.
 
-8. If you want to apply the default settings to the Zune software, click **Start**. Or, if you want to change the default settings, click **Settings**. Then, follow the screens in the setup wizard.
+8. If you want to apply the default settings to the Zune software, click **Start**. Or, if you want to change the default settings, click **Settings**, then, follow the screens in the setup wizard.
 
 You can choose the folders you want to sync with your Zune device later by going to **Settings** in the Zune software. In **Collection**, you will see **Windows Libraries** where you can choose which folders to sync.
 
