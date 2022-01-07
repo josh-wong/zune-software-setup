@@ -78,7 +78,7 @@ Since Microsoft decommissioned the server that facilitates communication between
    > - If you previously reset your Zune to its factory default settings, you will see a different screen that shows your Zune has a "Required Update". If this screen appears, click **Accept**. Once this process is finished, you can begin syncing your media to your Zune HD.
    > - If the music you have synced on your Zune device is stored on a cloud service (for example, OneDrive or Google Drive), you may see a window with the message "You haven't made a selection. Is this screen displayed correctly?" You can either wait until your music finishes downloading or you can cancel the files from being downloaded. After that, the Zune software will start from the initial setup screen.
 
-8. If you want to apply the default settings to the Zune software, click **Start**. Or, if you want to change the default settings, click **Settings**, then, follow the screens in the setup wizard.
+8. If you want to apply the default settings to the Zune software, click **Start**. Or, if you want to change the default settings, click **Settings**, then follow the screens in the setup wizard.
 <img src="https://github.com/josh-wong/zune-software-setup/blob/main/images/zune_software_setup_screen.png?raw=true" style="zoom: 50%;" />
 
 You've now finished installing the Zune software. If you have any music in the Zune software default folders or the folders that you chose in the setup wizard, those artists, albums, and songs will appear on the main screen.
