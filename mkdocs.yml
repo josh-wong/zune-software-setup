@@ -1,0 +1,11 @@
+site_name: How to connect a Zune device to the Zune software
+theme:
+  name: material
+
+nav:
+  - Overview: 'index.md'
+  - Getting started: '01_getting-started.md'
+  - Instructions: '02_instructions.md'
+  - Conclusion: '03_conclusion.md'
+  - Contributions: '04_contributions.md'
+  - Donations: '05_donations.md'
