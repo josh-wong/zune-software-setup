@@ -5,7 +5,11 @@ theme:
 nav:
   - Overview: 'index.md'
   - Getting started: '01_getting-started.md'
-  - Instructions: '02_instructions.md'
-  - Conclusion: '03_conclusion.md'
-  - Contributions: '04_contributions.md'
-  - Donations: '05_donations.md'
+  - Installation:
+    - Installing the Zune software: '02_installing-the-zune-software.md'
+    - Connecting to the Zune software: '03_connecting-with-the-zune-software.md'
+    - Adding apps and games (Zune HD only): '04_adding-apps-and-games.md'
+  - Conclusion: '05_conclusion.md'
+  - References: '06_references.md'
+  - Contributions: '07_contributions.md'
+  - Donations: '08_donations.md'
