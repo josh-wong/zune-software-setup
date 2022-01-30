@@ -11,8 +11,7 @@
 
 7. In the window "Zune is ready to install", uncheck **Send info about setup to help improve experience**. Then, click **Install**.
 <img src="https://github.com/josh-wong/zune-software-setup/blob/main/images/zune_software_install.png?raw=true" />
-
    > **Note:** During installation, Windows may prompt to install .NET Framework 3.5. If so, click **Download and install this feature**. After installation .NET Framework 3.5 is complete, click **Close**. The Zune software will continue installing.
-   
+
 8. After the Zune software installation is complete, click **Close**.
 <img src="https://github.com/josh-wong/zune-software-setup/blob/main/images/zune_software_installation_complete.png?raw=true" />
