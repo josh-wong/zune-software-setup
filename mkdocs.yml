@@ -1,4 +1,4 @@
-site_name: How to connect a Zune device to the Zune software
+site_name: 🎵How to connect a Zune device to the Zune software
 theme:
   name: material
 
@@ -13,3 +13,4 @@ nav:
   - References: '06_references.md'
   - Contributions: '07_contributions.md'
   - Donations: '08_donations.md'
+  - ⬅️return to josh-wong: 'https://josh-wong.github.io/'
