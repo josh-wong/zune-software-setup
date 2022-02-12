@@ -1,6 +1,25 @@
-site_name: 🎵How to connect a Zune device to the Zune software
+site_name: How to connect a Zune device to the Zune software
+site_url: https://josh-wong.github.io/zune-software-setup/
+
 theme:
   name: material
+  favicon: assets/images/favicon.png
+  logo: assets/images/mkdocs_zune_logo.png
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: blue
+      accent: blue
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: blue
+      accent: blue
 
 nav:
   - Overview: 'index.md'
@@ -13,4 +32,4 @@ nav:
   - References: '06_references.md'
   - Contributions: '07_contributions.md'
   - Donations: '08_donations.md'
-  - ⬅️return to josh-wong: 'https://josh-wong.github.io/'
+  - 🏠return to josh-wong: 'https://josh-wong.github.io/'
