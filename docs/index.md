@@ -8,4 +8,4 @@ I created this tutorial because syncing your Zune with the Zune software is a bi
 - Sync your Zune device with the Zune software.
 - Optional: Install apps and games onto your Zune HD. 
 
-![](assets/screenshots/zune-hd.jpg)
+![](/assets/screenshots/zune-hd.jpg)
