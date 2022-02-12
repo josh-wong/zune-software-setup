@@ -16,10 +16,10 @@ Since the Zune software was created and optimized for Windows 7, there seems to 
    > **Note:** If Windows prompts you about applying this registry setting, click **Run** to allow the file to be added to your registry.
 
 6. When the warning appears, click **Yes**.
-![Registry editor warning](https://github.com/josh-wong/zune-software-setup/blob/main/docs/assets/screenshots/registry_editor_warning.png)
+![Registry editor warning](https://github.com/josh-wong/zune-software-setup/blob/main/docs/assets/screenshots/registry_editor_warning.png?raw=true)
 
 7. When the confirmation window appears, click **OK**.
-![Registry editor confirmation](https://github.com/josh-wong/zune-software-setup/blob/main/docs/assets/screenshots/registry_editor_confirmation.png)
+![Registry editor confirmation](https://github.com/josh-wong/zune-software-setup/blob/main/docs/assets/screenshots/registry_editor_confirmation.png?raw=true)
 
 ## Update the "hosts" file in Windows
 
@@ -47,9 +47,9 @@ Since Microsoft decommissioned the server that facilitates communication between
    > - If the music you have synced on your Zune device is stored on a cloud service (for example, OneDrive or Google Drive), you may see a window with the message "You haven't made a selection. Is this screen displayed correctly?" You can either wait until your music finishes downloading or you can cancel the files from being downloaded. After that, the Zune software will start from the initial setup screen.
 
 8. If you want to apply the default settings to the Zune software, click **Start**. Or, if you want to change the default settings, click **Settings**, then follow the screens in the setup wizard.
-![Zune software setup screen](https://github.com/josh-wong/zune-software-setup/blob/main/docs/assets/screenshots/zune_software_setup_screen.png)
+![Zune software setup screen](https://github.com/josh-wong/zune-software-setup/blob/main/docs/assets/screenshots/zune_software_setup_screen.png?raw=true)
 
 You've now finished installing the Zune software. If you have any music in the Zune software default folders or the folders that you chose in the setup wizard, those artists, albums, and songs will appear on the main screen.
-![Zune software](https://github.com/josh-wong/zune-software-setup/blob/main/docs/assets/screenshots/zune_software.png)
+![Zune software](https://github.com/josh-wong/zune-software-setup/blob/main/docs/assets/screenshots/zune_software.png?raw=true)
 
 If you want to choose different folders to sync with your Zune device, go to **Settings** in the Zune software. In **Collection**, you will see **Windows Libraries** where you can choose which folders to sync.

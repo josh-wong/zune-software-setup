@@ -4,7 +4,7 @@ Was this documentation helpful? If so, micro-donations are greatly appreciated!
 
 ## Bitcoin Cash (BCH)🟢
 
-![](assets/images/bitcoin_cash_qr_code_github_zune_software_setup.png)
+![Bitcoin Cash QR code](https://github.com/josh-wong/zune-software-setup/blob/main/docs/assets/images/bitcoin_cash_qr_code_github_zune_software_setup.png?raw=true)
 
 ## Ko-fi☕
 
