@@ -1,10 +1,18 @@
 site_name: How to connect a Zune device to the Zune software
 site_url: https://josh-wong.github.io/zune-software-setup/
 
+repo_name: josh-wong/zune-software-setup
+repo_url: https://github.com/josh-wong/zune-software-setup
+
+plugins:
+  - search
+
 theme:
   name: material
   favicon: assets/images/favicon.png
   logo: assets/images/mkdocs_zune_logo.png
+  icon:
+    repo: fontawesome/brands/github
   palette:
     - media: "(prefers-color-scheme: light)" 
       scheme: default
