@@ -1,5 +1,8 @@
-# Contributions
+# Contributing
 
 Does this documentation need to be clarified, updated, or otherwise improved upon? If so, pull requests are welcome!
 
-Please open an [issue](https://github.com/josh-wong/zune-software-setup/issues) on GitHub first and state the issue. Then, create a pull request and link to you issue. This will help me track changes to the documentation and provide context for future reference.
+Please do the following:
+
+1. Open an [issue](https://github.com/josh-wong/zune-software-setup/issues) on GitHub and describe what you would like to add or change.
+2. Create a pull request and link to your issue. This will help me track changes to the documentation and help provide context for future reference.
