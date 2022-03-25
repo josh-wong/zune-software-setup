@@ -3,12 +3,12 @@ site_url: https://josh-wong.github.io/zune-software-setup/
 
 # adds repo details in the top right-hand corner; removing since it's 
 # to have in a multidocs site
-# repo_name: josh-wong/zune-software-setup
-# repo_url: https://github.com/josh-wong/zune-software-setup
+repo_name: josh-wong/zune-software-setup
+repo_url: https://github.com/josh-wong/zune-software-setup
 # removes the edit page button since there's a conflict with having the edit 
 # page button on both single docs sites and this multidocs site; doesn't seem 
 # to be a way to remove it from one site and keep it on the other
-# edit_uri: edit/main/docs/
+edit_uri: ""
 
 plugins:
   - search
