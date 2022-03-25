@@ -3,9 +3,9 @@ site_url: https://josh-wong.github.io/zune-software-setup/
 
 repo_name: josh-wong/zune-software-setup
 repo_url: https://github.com/josh-wong/zune-software-setup
-# hides the edit button since there's a conflict between editing the 
+# want to eventually hide the edit button since there's a conflict between editing the 
 # multirepo docs site and the individual docs site
-edit_uri: ""
+edit_uri: edit/main/docs/
 
 plugins:
   - search
