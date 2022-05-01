@@ -1,4 +1,4 @@
-# Overview
+# How to connect a Zune device to the Zune software
 
 This tutorial describes how to connect a Microsoft Zune device to the Zune software. 
 
