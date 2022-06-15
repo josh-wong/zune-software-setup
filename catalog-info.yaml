@@ -4,6 +4,7 @@ metadata:
   name: zune-software-setup
   annotations:
     github.com/project-slug: josh-wong/zune-software-setup
+    backstage.io/techdocs-ref: value
 spec:
   type: other
   lifecycle: unknown
