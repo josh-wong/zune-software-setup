@@ -13,6 +13,7 @@ edit_uri: blob/main/
 
 plugins:
   - search
+  - techdocs-core
 
 theme:
   name: material
