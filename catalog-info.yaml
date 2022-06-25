@@ -9,6 +9,6 @@ metadata:
     github.com/project-slug: josh-wong/zune-software-setup
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: other
-  lifecycle: unknown
-  owner: guests
+  type: docs
+  lifecycle: production
+  owner: josh-wong
