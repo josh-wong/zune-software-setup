@@ -2,6 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: zune-software-setup
+  title: Zune software setup
+  description: This tutorial describes how to connect a Microsoft Zune device to the Zune software.
+  tags: Markdown
   annotations:
     github.com/project-slug: josh-wong/zune-software-setup
     backstage.io/techdocs-ref: dir:.
