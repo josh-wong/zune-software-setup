@@ -5,7 +5,7 @@ metadata:
   title: Zune software setup
   description: This tutorial describes how to connect a Microsoft Zune device to the Zune software.
   tags:
-    - Markdown
+    - markdown
   annotations:
     github.com/project-slug: josh-wong/zune-software-setup
     backstage.io/techdocs-ref: dir:.
