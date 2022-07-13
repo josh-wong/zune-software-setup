@@ -52,7 +52,6 @@ theme:
     - navigation.tracking
     - navigation.top
 
-
 nav:
   - Overview: 'index.md'
   - Getting started: '01_getting-started.md'
@@ -62,3 +61,6 @@ nav:
   - Conclusion: '05_conclusion.md'
   - References: '06_references.md'
   - Contributions: '07_contributions.md'
+  - '': ''
+  - '': ''
+  - 🏠Home: 'https://josh-wong.github.io'
