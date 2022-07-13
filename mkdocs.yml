@@ -1,19 +1,21 @@
 site_name: How to connect a Zune device to the Zune software
 site_url: https://josh-wong.github.io/zune-software-setup/
 
-# adds repo details in the top right-hand corner; removing since it's 
-# to have in a multidocs site
+# Add repo details in the top right-hand corner
 repo_name: josh-wong/zune-software-setup
 repo_url: https://github.com/josh-wong/zune-software-setup
-# warning: this edit page button does not work; I have prioritized the 
-# multidocs site, so the edit page button on https://josh-wong.github.io 
-# is correct; there doesn't seem to be a way to remove it from one site 
-# and keep it on the other.
 edit_uri: blob/main/
 
 plugins:
   - search
   - techdocs-core
+  - git-revision-date-localized:
+      type: date
+      enable_creation_date: true
+  - mkdocs-video:
+      css_style:
+        width: "100%"
+        height: "300px"
 
 markdown_extensions:
   # Add styles for buttons
@@ -51,6 +53,18 @@ theme:
     - search.share
     - navigation.tracking
     - navigation.top
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/josh-wong
+      name: josh-wong on GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/wongjoshua
+      name: Joshua Wong on LinkedIn
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/josh_in_japan
+      name: josh_in_japan on Twitter
 
 nav:
   - Overview: 'index.md'
