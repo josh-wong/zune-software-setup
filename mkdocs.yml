@@ -23,17 +23,21 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-  # Add admonition support
+  # Add support for Material for MkDocs admonitions
   - admonition
   - pymdownx.details
   - pymdownx.superfences
 
 theme:
   name: material
+  # Add favicon to browser tab
   favicon: assets/images/favicon.png
+  # Add logo to docs pages
   logo: assets/images/mkdocs_zune_logo.png
   icon:
+    # Add icon to show repository information and link
     repo: fontawesome/brands/github
+    # Add icons for Material for MkDocs admonitions
     admonition:
       note: fontawesome/solid/sticky-note
       abstract: fontawesome/solid/book
@@ -47,6 +51,7 @@ theme:
       bug: fontawesome/solid/robot
       example: fontawesome/solid/flask
       quote: fontawesome/solid/quote-left
+  # Add light & dark theme
   palette:
     - media: "(prefers-color-scheme: light)" 
       scheme: default
