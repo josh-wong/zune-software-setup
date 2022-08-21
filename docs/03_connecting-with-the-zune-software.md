@@ -10,11 +10,13 @@ Since the Zune software was created and optimized for Windows 7, there seems to 
 2. Click **ZUNE-APP-SETTINGS-REG-FILE.ZIP**, and specify a folder to save the file to.
 3. Go to the folder where you downloaded the ZIP file to.
 4. Right-click **ZUNE-APP-SETTINGS-REG-FILE.ZIP**, and select **Extract All**. In the wizard, click **Extract**. A registry file will be extracted.
+
    !!! warning
 
       If you're worried about the contents of the file and are comfortable checking what will be add to the Windows registry in the next step, you can open the file in Notepad++ to check its contents.
 
-5. In the extracted folder, double-click **Zune Configure App Settings.reg**. 
+5. In the extracted folder, double-click **Zune Configure App Settings.reg**.
+
    !!! note
 
       If Windows prompts you about applying this registry setting, click **Run** to allow the file to be added to your registry.
@@ -36,6 +38,7 @@ Since Microsoft decommissioned the server that facilitates communication between
      `66.115.173.227	resources.zune.net`
 
 4. Save the file.
+
    !!! note
       
       When saving the file, you may be prompted to launch Notepad++ in administrator mode since the "hosts" file is protected. If so, do the following:
@@ -47,6 +50,7 @@ Since Microsoft decommissioned the server that facilitates communication between
 5. If you have a PIN code set up on your Zune device, enter the code to unlock the device.
 6. Plug in your Zune device to your computer to automatically install the device driver.
 7. Open the Zune software.
+
    !!! note
 
       - If you previously reset your Zune to its factory default settings, you will see a different screen that shows your Zune has a "Required Update". If this screen appears, click **Accept**. Once this process is finished, you can begin syncing your media to your Zune HD.
