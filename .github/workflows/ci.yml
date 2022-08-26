@@ -13,6 +13,7 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
+          fetch-depth: 0
       # This token expires on January 2, 2023.
       - run: pip install \ 
           git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git \
