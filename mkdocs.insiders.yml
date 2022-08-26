@@ -2,4 +2,4 @@ INHERIT: mkdocs.yml
 plugins:
   - git-committers:
       repository: josh-wong/zune-software-setup
-      token: !ENV GH_TOKEN
+      token: !ENV MKDOCS_GIT_COMMITTERS_PAT
