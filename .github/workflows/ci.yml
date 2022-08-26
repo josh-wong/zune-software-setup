@@ -13,9 +13,9 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
+      # This token expires on January 2, 2023.
       - run: pip install \ 
           git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git \
-          #mkdocs-techdocs-core \
           mkdocs-video \
           mkdocs-git-revision-date-localized-plugin \
           python-slugify \
