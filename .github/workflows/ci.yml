@@ -19,8 +19,8 @@ jobs:
           mkdocs-video \
           mkdocs-git-revision-date-localized-plugin \
           python-slugify \
-          #mkdocs-git-committers-plugin-2 \
-      #- run: mkdocs build --config-file mkdocs.insiders.yml
+          mkdocs-git-committers-plugin-2 \
+      - run: mkdocs build --config-file mkdocs.insiders.yml
       - run: mkdocs gh-deploy --force
 env:
   # This token expires on January 2, 2023.
