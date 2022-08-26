@@ -18,5 +18,3 @@ jobs:
       - run: pip install mkdocs-git-revision-date-localized-plugin
       - run: pip install python-slugify
       - run: mkdocs gh-deploy --force
-      - env:
-          GH_TOKEN: ${{ secrets.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 }}
