@@ -7,14 +7,18 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    if: github.event.repository.fork == false
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - run: pip install mkdocs-material
+      - run: pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
       - run: pip install mkdocs-techdocs-core
       - run: pip install mkdocs-video
       - run: pip install mkdocs-git-revision-date-localized-plugin
       - run: pip install python-slugify
       - run: mkdocs gh-deploy --force
+env:
+  # This token expires January 2, 2023.
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
