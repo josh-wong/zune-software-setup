@@ -74,6 +74,7 @@ theme:
     - search.share
     - navigation.tracking
     - navigation.top
+    - toc.follow
 
 extra:
   social:
