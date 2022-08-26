@@ -19,6 +19,3 @@ jobs:
       - run: pip install mkdocs-git-revision-date-localized-plugin
       - run: pip install python-slugify
       - run: mkdocs gh-deploy --force
-env:
-  # This token expires January 2, 2023.
-  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
