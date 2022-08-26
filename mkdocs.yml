@@ -17,6 +17,7 @@ plugins:
         height: "300px"
   - git-committers:
       repository: josh-wong/zune-software-setup
+      token: !ENV GH_TOKEN
 
 markdown_extensions:
   # Add styles for buttons
