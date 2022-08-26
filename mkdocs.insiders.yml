@@ -1,0 +1,4 @@
+plugins:
+  - git-committers:
+      repository: squidfunk/mkdocs-material
+      token: !ENV GH_TOKEN
