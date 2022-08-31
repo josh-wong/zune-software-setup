@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      # This token expires on January 2, 2023.
+      # This token expires on September 1, 2023.
       - run: pip install \ 
           git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git \
           mkdocs-video \
@@ -25,5 +25,5 @@ jobs:
       #- run: mkdocs build --config-file mkdocs.insiders.yml
       - run: mkdocs gh-deploy --force
 env:
-  # This token expires on January 2, 2023.
+  # This token expires on September 1, 2023.
   GH_TOKEN: ${{ secrets.GH_TOKEN }}
