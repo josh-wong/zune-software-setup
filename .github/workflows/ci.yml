@@ -27,4 +27,3 @@ jobs:
 env:
   # This token expires on January 2, 2023.
   GH_TOKEN: ${{ secrets.GH_TOKEN }}
-  
