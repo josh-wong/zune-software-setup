@@ -8,6 +8,7 @@ edit_uri: blob/main/docs
 
 plugins:
   - search
+  # Enables TechDocs support in Backstage. However, many plugins need to be disabled for TechDocs to work properly.
   #- techdocs-core
   # Show the last updated date
   - git-revision-date-localized:
