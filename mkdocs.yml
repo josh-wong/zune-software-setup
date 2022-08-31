@@ -9,8 +9,10 @@ edit_uri: blob/main/docs
 plugins:
   - search
   #- techdocs-core
+  # Show the last updated date
   - git-revision-date-localized:
       type: date
+  # Enable videos to be embedded
   - mkdocs-video:
       css_style:
         width: "100%"
@@ -102,4 +104,3 @@ nav:
   - '': ''
   - '': ''
   - 🏠Home: 'https://josh-wong.github.io'
-  
