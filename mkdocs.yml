@@ -19,7 +19,7 @@ plugins:
         width: "100%"
         height: "300px"
   - git-committers:
-      repository: squidfunk/mkdocs-material
+      repository: josh-wong/zune-software-setup
       token: !ENV GH_TOKEN
 
 markdown_extensions:
