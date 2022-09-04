@@ -2,7 +2,6 @@ name: ci
 on:
   push:
     branches:
-      - master 
       - main
 jobs:
   deploy:
@@ -22,6 +21,8 @@ jobs:
           mkdocs-git-revision-date-localized-plugin \
           python-slugify \
           mkdocs-git-committers-plugin-2 \
+          #mkdocs-techdocs-core \
+          #mkdocs-multirepo-plugin \
       #- run: mkdocs build --config-file mkdocs.insiders.yml
       - run: mkdocs gh-deploy --force
 env:
