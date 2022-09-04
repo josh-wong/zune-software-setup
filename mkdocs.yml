@@ -21,7 +21,6 @@ plugins:
   - git-committers:
       repository: josh-wong/zune-software-setup
       branch: main
-      token: !ENV GH_TOKEN
 
 markdown_extensions:
   # Add styles for buttons
