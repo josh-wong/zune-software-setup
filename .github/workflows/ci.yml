@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install \ 
-          mkdocs-material \
+          mkdocs \
           mkdocs-video \
           mkdocs-git-revision-date-localized-plugin \
           python-slugify \
