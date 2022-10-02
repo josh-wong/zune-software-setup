@@ -44,65 +44,65 @@ plugins:
 
 markdown_extensions:
   # Add styles for buttons
-  - attr_list
+#  - attr_list
   # Add emoji support
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+#  - pymdownx.emoji:
+#      emoji_index: !!python/name:materialx.emoji.twemoji
+#      emoji_generator: !!python/name:materialx.emoji.to_svg
   # Add support for Material for MkDocs admonitions
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
+#  - admonition
+#  - pymdownx.details
+#  - pymdownx.superfences
   - toc:
       # Add link next to header that allows the user to get a permalink to the heading (still need to copy the URL in the address bar).
       permalink: true
 
 theme:
-  name: material
+#  name: material
   # Add favicon to browser tab
   favicon: assets/images/favicon.png
   # Add logo to docs pages
   logo: assets/images/mkdocs_zune_logo.png
   icon:
     # Add icon to show repository information and link
-    repo: fontawesome/brands/github
+#    repo: fontawesome/brands/github
     # Add icons for Material for MkDocs admonitions
-    admonition:
-      note: fontawesome/solid/note-sticky
-      abstract: fontawesome/solid/book
-      info: fontawesome/solid/circle-info
-      tip: fontawesome/solid/bullhorn
-      success: fontawesome/solid/check
-      question: fontawesome/solid/circle-question
-      warning: fontawesome/solid/triangle-exclamation
-      failure: fontawesome/solid/bomb
-      danger: fontawesome/solid/skull
-      bug: fontawesome/solid/robot
-      example: fontawesome/solid/flask
-      quote: fontawesome/solid/quote-left
+#    admonition:
+#      note: fontawesome/solid/note-sticky
+#      abstract: fontawesome/solid/book
+#      info: fontawesome/solid/circle-info
+#      tip: fontawesome/solid/bullhorn
+#      success: fontawesome/solid/check
+#      question: fontawesome/solid/circle-question
+#      warning: fontawesome/solid/triangle-exclamation
+#      failure: fontawesome/solid/bomb
+#      danger: fontawesome/solid/skull
+#      bug: fontawesome/solid/robot
+#      example: fontawesome/solid/flask
+#      quote: fontawesome/solid/quote-left
   # Add light & dark theme
-  palette:
+#  palette:
     # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
+#    - media: "(prefers-color-scheme)"
+#      toggle:
+#        icon: material/brightness-auto
+#        name: Switch to light mode
     # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)" 
-      scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-      primary: pink
-      accent: blue
+#    - media: "(prefers-color-scheme: light)" 
+#      scheme: default
+#      toggle:
+#        icon: material/weather-night
+#        name: Switch to dark mode
+#      primary: pink
+#      accent: blue
     # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)" 
-      scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-      primary: pink
-      accent: blue
+#    - media: "(prefers-color-scheme: dark)" 
+#      scheme: slate
+#      toggle:
+#        icon: material/weather-sunny
+#        name: Switch to light mode
+#      primary: pink
+#      accent: blue
   features:
     # Add custom search functions
     - search.suggest
@@ -111,17 +111,17 @@ theme:
     - navigation.tracking
     - navigation.top
 
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/josh-wong
-      name: josh-wong on GitHub
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/wongjoshua
-      name: Joshua Wong on LinkedIn
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/josh_in_japan
-      name: josh_in_japan on Twitter
+#extra:
+#  social:
+#    - icon: fontawesome/brands/github
+#      link: https://github.com/josh-wong
+#      name: josh-wong on GitHub
+#    - icon: fontawesome/brands/linkedin
+#      link: https://www.linkedin.com/in/wongjoshua
+#      name: Joshua Wong on LinkedIn
+#    - icon: fontawesome/brands/twitter
+#      link: https://twitter.com/josh_in_japan
+#      name: josh_in_japan on Twitter
 
 nav:
   - Overview: 'index.md'
