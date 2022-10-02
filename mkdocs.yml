@@ -24,7 +24,7 @@ plugins:
       branch: main
 
 theme:
-  name: material
+  name: mkdocs
   # Add favicon to browser tab
   favicon: assets/images/favicon.png
   # Add logo to docs pages
