@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install \ 
-          git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git \
+          mkdocs-material \
           mkdocs-video \
           mkdocs-git-revision-date-localized-plugin \
           python-slugify \
