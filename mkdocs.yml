@@ -57,13 +57,13 @@ markdown_extensions:
       # Add link next to header that allows the user to get a permalink to the heading (still need to copy the URL in the address bar).
       permalink: true
 
-theme:
+#theme:
 #  name: material
   # Add favicon to browser tab
-  favicon: assets/images/favicon.png
+#  favicon: assets/images/favicon.png
   # Add logo to docs pages
-  logo: assets/images/mkdocs_zune_logo.png
-  icon:
+#  logo: assets/images/mkdocs_zune_logo.png
+#  icon:
     # Add icon to show repository information and link
 #    repo: fontawesome/brands/github
     # Add icons for Material for MkDocs admonitions
@@ -103,13 +103,13 @@ theme:
 #        name: Switch to light mode
 #      primary: pink
 #      accent: blue
-  features:
+#  features:
     # Add custom search functions
-    - search.suggest
-    - search.highlight
-    - search.share
-    - navigation.tracking
-    - navigation.top
+#    - search.suggest
+#    - search.highlight
+#    - search.share
+#    - navigation.tracking
+#    - navigation.top
 
 #extra:
 #  social:
