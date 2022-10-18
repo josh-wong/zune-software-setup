@@ -3,3 +3,5 @@ plugins:
   - git-committers:
       repository: josh-wong/zune-software-setup
       token: !ENV GH_TOKEN
+  # Enable support for social cards (pretty link previews)
+  - social
