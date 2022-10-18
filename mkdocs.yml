@@ -10,6 +10,10 @@ edit_uri: blob/main/docs
 plugins:
   # Enable the search function (currently disabled to take advantage of new search features in Material for MkDocs Insiders)
   #- search
+  # Show the last updated date
+  - git-committers:
+      repository: josh-wong/tplink-router-hard-reset
+      branch: main
   - git-revision-date-localized:
       type: date
   # Enable videos to be embedded
