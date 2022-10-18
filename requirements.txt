@@ -1,0 +1,22 @@
+# Requirements for core
+cairosvg
+jinja2>=3.0.2
+markdown>=3.2
+mkdocs>=1.4.0
+mkdocs-material-extensions>=1.0.3
+mkdocs-redirects
+mkdocs-video
+# Show docs contributors (currently disabled since this is a home page that primarily includes a blog and links to projects)
+#mkdocs-git-committers-plugin-2
+# Show the last updated date (currently disabled since this is a home page that primarily includes a blog and links to projects)
+#mkdocs-git-revision-date-localized-plugin
+mkdocs-rss-plugin
+pillow 
+pygments>=2.12
+pymdown-extensions>=9.4
+python-slugify
+#mkdocs-techdocs-core
+#mkdocs-multirepo-plugin
+
+# Requirements for plugins
+requests>=2.26
