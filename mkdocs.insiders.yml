@@ -1,10 +1,6 @@
 INHERIT: mkdocs.yml
 plugins:
   - search
-  # Add blog support
-  - blog:
-      post_url_date_format: yyyy/MM
-      post_url_format: "{date}/{slug}"
   - meta
   # Add RSS function
   - rss:
