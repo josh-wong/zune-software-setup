@@ -63,6 +63,8 @@ markdown_extensions:
 
 theme:
   name: material
+  # Extend the theme
+  custom_dir: overrides
   # Add favicon to browser tab
   favicon: assets/images/favicon.png
   # Add logo to docs pages
@@ -108,6 +110,8 @@ theme:
       primary: pink
       accent: blue
   features:
+    # Mark announcement as read
+    - announce.dismiss
     # Add custom search functions
     - search.suggest
     - search.highlight
