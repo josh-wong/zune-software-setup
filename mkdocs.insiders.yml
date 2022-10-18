@@ -1,6 +1,12 @@
 INHERIT: mkdocs.yml
 plugins:
   - search
+  # Show the last updated date
+  - git-committers:
+      repository: josh-wong/zune-software-setup
+      branch: main
+  - git-revision-date-localized:
+      type: date
   - meta
   # Add RSS function
   - rss:
