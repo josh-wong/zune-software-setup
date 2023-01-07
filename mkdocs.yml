@@ -2,7 +2,6 @@ site_name: How to connect a Zune device to the Zune software
 site_url: https://josh-wong.github.io/zune-software-setup/
 site_description: A tutorial that describes how to connect a Microsoft Zune device to the Zune software.
 
-# Add repo details in the top right-hand corner
 repo_name: josh-wong/zune-software-setup
 repo_url: https://github.com/josh-wong/zune-software-setup/
 edit_uri: blob/main/docs
@@ -10,7 +9,8 @@ edit_uri: blob/main/docs
 plugins:
   # Enable the search function (currently disabled to take advantage of new search features in Material for MkDocs Insiders)
   #- search
-  # Enable videos to be embedded
+  - minify:
+      minify_html: true
   - mkdocs-video:
       css_style:
         width: "100%"
@@ -38,7 +38,11 @@ markdown_extensions:
   #    auto_append:
   #      - includes/glossary.md
   # Add support for arbitrary nesting of code and content blocks inside each other.
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
   # Add support for TOC configuration
   - toc:
       # Add link next to header that allows the user to get a permalink to the heading (still need to copy the URL in the address bar).
@@ -103,6 +107,7 @@ theme:
     - search.suggest
     # Add custom navigation functions
     - navigation.expand
+    - navigation.footer
     #- navigation.indexes
     - navigation.instant
     #- navigation.sections
@@ -128,22 +133,42 @@ extra:
           data: 0
           note: >- 
             Thanks for your feedback! Help me improve this page by <a href="https://github.com/josh-wong/zune-software-setup/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">creating an issue in GitHub</a>.
+  consent:
+    title: Cookie consent
+    description: >- 
+      This site uses cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of the documentation and whether users find what they're searching for. With your consent, you're helping to improve this documentation and provide a better user experience.
+    actions:
+      - accept
+      - manage
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/josh-wong
       name: josh-wong on GitHub
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/josh-wong
+      name: josh-wong on GitLab
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/wongjoshua
       name: Joshua Wong on LinkedIn
+    - icon: fontawesome/brands/mastodon
+      link: https://famichiki.jp/@josh
+      name: josh on Mastodon
+    - icon: fontawesome/brands/steam
+      link: https://steamcommunity.com/id/hex080f53
+      name: hex080f53 on Steam
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/josh_in_japan
-      name: josh_in_japan on Twitter
+      link: https://twitter.com/080f53
+      name: 080f53 on Twitter
   status:
     new: Recently added
     deprecated: Deprecated
 
 extra_css:
   - stylesheets/extra.css
+
+copyright: >
+  &copy; 2021-2023 Josh Wong –
+  <a href="#__consent">🍪Cookie settings</a>
 
 nav:
   - Overview: 'index.md'
