@@ -8,7 +8,12 @@ Before you begin set up, confirm that you can turn on your Zune device and that 
 
 ## Prerequisites
 
-- PC running Windows 10 or later
+- PC running Windows 10
+
+!!! attention
+
+    In Windows 11, the Zune driver does not automatically install after plugging in the device. I'm currently troubleshooting the issue and will update these instructions after I find and confirm a resolution.
+
 - Zune device
 - Zune charging cable
 - [Notepad++](https://notepad-plus-plus.org/)
