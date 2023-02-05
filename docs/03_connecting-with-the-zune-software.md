@@ -34,18 +34,20 @@ Open **File Explorer**. Enter **%SystemRoot%\System32\drivers\etc** in the addre
 
 Right-click **hosts**, click **Open with**, then select **Notepad++**.
 
-At the bottom of the file, add the following to a new line: 
+At the bottom of the file, add the following to a new line:
      `66.115.173.227	resources.zune.net`
 
 Save the file.
 
 !!! note
-    
+
     When saving the file, you may be prompted to launch Notepad++ in administrator mode since the "hosts" file is protected. If so, do the following:
 
     1. Click **Yes** to open the file in administrator mode.
     2. Click **Yes** when asked "Do you want to allow this app to make changes to your device?".
     3. Save the file.
+
+## Connect the Zune device
 
 If you have a PIN code set up on your Zune device, enter the code to unlock the device.
 
