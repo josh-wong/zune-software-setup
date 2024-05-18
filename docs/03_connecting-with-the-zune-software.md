@@ -47,11 +47,68 @@ Save the file.
     2. Click **Yes** when asked "Do you want to allow this app to make changes to your device?".
     3. Save the file.
 
+## Install the Zune driver
+
+Let's install the Zune driver. 
+
+### Installation on Windows 10
+
+If you're using Windows 10, you should be able to install the Zune driver by plugging in your device.
+
+### Installation on Windows 11
+
+==UNABLE TO GET THE ZUNE DEVICE DRIVER TO INSTALL ON WINDOWS 11. THESE INSTRUCTIONS DO NOT WORK. NEXT STEP: TRY REFORMATTING THE ZUNE.==
+
+!!! note
+
+    The instructions for installing the Zune driver were first noted in the following tutorial on YouTube: [Install Zune on Windows 11 in 2022 (FIX DRIVERS)](https://www.youtube.com/watch?v=rWbWZt_T34w&t=407s)
+
+If you're using Windows 11, you must install third-party software to force Windows to recognize the Zune driver.
+
+Go to the **[Download ExecTI - Run as TrustedInstaller](https://winaero.com/download-execti-run-as-trustedinstaller/)** page on the Winaero website. On the page, select **Click here to download the file** to begin downloading the software.
+
+!!! note
+
+    Hover over the link to make sure you are downloading **ExecTI.zip.**
+
+Go to the folder that you saved **ExecTI.zip** to. Right-click the file, then select **Extract** to unzip the package.
+
+In the **ExecTI** folder, open **ExecTI.exe**. When the **Run as TrustedInstaller** window opens, enter **cmd**.
+
+Run the following command to start fixing the Zune device driver issue
+
+```console
+copy "C:\Windows\System32\DriverStore\FileRepository\zune.inf_amd64_bae1a2a65e3c2cfb\en-US\ZuneCoInst.dll.mui" "C:\Windows\System32\en-US"
+```
+
+Then, run the following command to install the Zune device driver:
+
+```console
+pnputil /add-driver "C:\Program Files\Zune\Drivers\Zune\Zune.inf" /install
+```
+
+Close the **ExecTI Command Prompt** window.
+
+---
+
+If you have a PIN code set up on your Zune device, enter the code to unlock the device. Then, plug in your Zune device to your computer.
+
+On Windows, open **Device Manager**. Then, select **Other devices**, right-click **Zune**, and choose **Properties**.
+
+!!! note
+
+    If you don't see **Zune** under **Other devices**, make sure your Zune is turned on, unlocked, and properly connected to your computer.
+
+---
+
+
+
+
 ## Connect the Zune device
 
 If you have a PIN code set up on your Zune device, enter the code to unlock the device.
 
-Plug in your Zune device to your computer to automatically install the device driver. Then, open the Zune software.
+Plug in your Zune device, and open the Zune software.
 
 !!! note
 

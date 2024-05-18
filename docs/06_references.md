@@ -6,3 +6,4 @@ Microsoft still hosts basic manuals for Zune and Zune HD devices. Please see [Zu
 
 - To [Zune Update](https://www.zuneupdate.com/) for providing an IP address that provides the server of reference that we need when connecting a Zune device with the Zune software.
 - To u/BenjaminGordonT on Reddit for providing a Dropbox link to the ZIP file of the Zune HD apps and games: [All the Original Zune HD Apps and Games!](https://www.reddit.com/r/Zune/comments/52yo3h/all_the_original_zune_hd_apps_and_games/)
+- To Codix on YouTube for finding a way to install the Zune device driver in Windows 11: [Install Zune on Windows 11 in 2022 (FIX DRIVERS)](https://www.youtube.com/watch?v=rWbWZt_T34w&t=407s)
