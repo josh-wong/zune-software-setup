@@ -2,17 +2,21 @@
 
 Before you begin set up, confirm that you can turn on your Zune device and that is working as expected.
 
-!!! note
+:::note
 
-    I confirmed that these instructions work when using a Zune HD. If you have an earlier Zune model, you should be able to follow these instructions as well. However, the apps and games can be installed only on a Zune HD.
+I confirmed that these instructions work when using a Zune HD. If you have an earlier Zune model, you should be able to follow these instructions as well. However, the apps and games can be installed only on a Zune HD.
+
+:::
 
 ## Prerequisites
 
 - PC running Windows 10
 
-!!! attention
+:::warning
 
-    In Windows 11, the Zune driver does not automatically install after plugging in the device. I'm currently troubleshooting the issue and will update these instructions after I find and confirm a resolution.
+In Windows 11, the Zune driver does not automatically install after plugging in the device. I'm currently troubleshooting the issue and will update these instructions after I find and confirm a resolution.
+
+:::
 
 - Zune device
 - Zune charging cable
