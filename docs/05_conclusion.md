@@ -1,3 +1,0 @@
-# Conclusion
-
-You should now be able to connect your Zune device to the Zune software and sync your media to your Zune. Additionally, you can also customize which folders the software should sync to your device, select which apps and games you want on your device (for Zune HD owners), and even rip and burn CDs.
